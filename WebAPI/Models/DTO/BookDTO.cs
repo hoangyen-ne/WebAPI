@@ -13,6 +13,6 @@ namespace WebAPI.Models.DTO
         public string? CoverUrl { get; set; }
         public DateTime DateAdded { get; set; }
         public string PublisherName { get; set; }
-        public List<string> AuthorsNames { get; set; }
+        public List<string> AuthorNames { get; set; }
     }
 }
